@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Ugly Loaf</title>
+    <description>Minimal Blog &amp; Magazine Jekyll Theme</description>
+    <link>https://maxima-jekyll.aerobatic.io/</link>
+    <atom:link href="https://maxima-jekyll.aerobatic.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 09 Mar 2017 12:42:55 +0100</pubDate>
+    <lastBuildDate>Thu, 09 Mar 2017 12:42:55 +0100</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+  </channel>
+</rss>
