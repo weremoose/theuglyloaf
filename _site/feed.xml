@@ -3,11 +3,28 @@
   <channel>
     <title>The Ugly Loaf</title>
     <description>Minimal Blog &amp; Magazine Jekyll Theme</description>
-    <link>https://maxima-jekyll.aerobatic.io/</link>
-    <atom:link href="https://maxima-jekyll.aerobatic.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Mar 2017 08:29:16 +0100</pubDate>
-    <lastBuildDate>Fri, 10 Mar 2017 08:29:16 +0100</lastBuildDate>
+    <link>https://theuglyloaf.com/</link>
+    <atom:link href="https://theuglyloaf.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 10 Mar 2017 21:50:48 +0100</pubDate>
+    <lastBuildDate>Fri, 10 Mar 2017 21:50:48 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>50% Fresh Milled Whole Wheat Sourdough</title>
+        <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Mar 2017 00:00:00 +0100</pubDate>
+        <link>https://theuglyloaf.com/2017/03/10/50-fresh-milled-whole-wheat-sourdough/</link>
+        <guid isPermaLink="true">https://theuglyloaf.com/2017/03/10/50-fresh-milled-whole-wheat-sourdough/</guid>
+        
+        <category>collapsed</category>
+        
+        <category>scoring</category>
+        
+        <category>overproofing</category>
+        
+        
+      </item>
     
   </channel>
 </rss>

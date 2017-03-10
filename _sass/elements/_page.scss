@@ -6,11 +6,16 @@ body {
   color: $color-text;
   font-size: $font-size-medium;
   font-family: $font-serif;
-  font-weight: $font-weight-light;
-  line-height: $line-height-base;
+  font-weight: $font-weight-regular;
+  line-height: $line-height-medium;
 
   -webkit-font-smoothing: antialiased;
-   -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-sans-serif;
+  font-weight: $font-weight-bold;
 }
 
 *::selection {
