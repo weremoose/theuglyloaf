@@ -11,9 +11,8 @@ email:              theuglyloaf@protonmail.com
 description:        Minimal Blog & Magazine Jekyll Theme
 baseurl:            '' # The subpath of your site, e.g. /blog
 url:                'https://theuglyloaf.com' # The base hostname & protocol for your site
-github_username:    weremoose
-twitter_username:   aspirethemes
-instagram_username: aspirethemes
+instagram_username: theuglyloaf
+pinterest_username: weremoose
 
 markdown:  kramdown
 permalink: pretty
@@ -24,6 +23,7 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll/tagging
+  - jekyll_reading_time
 
 include:
   - _pages
@@ -48,10 +48,11 @@ defaults:
 # Authors
 authors:
   amelekou:
-    name:             Anastasia Melekou
-    bio:              An enthusiastic breaker, mender and maker of things. I love baking bread but truth be told... most of the time, it does not turn out quite as expected!
-    gravatar:         https://en.gravatar.com/userimage/38781779/0bbdddd45be4fe817db83891fe96319f.jpg?size=200
-    email:            theuglyloaf@protonmail.com
-    website:          https://melekou.com
-    github_username:  weremoose
-    twitter_username: ahmadajmi
+    name:               Anastasia Melekou
+    bio:                An enthusiastic breaker, mender and maker of things. I love baking bread but truth be told... most of the time, it does not turn out quite as expected!
+    gravatar:           https://en.gravatar.com/userimage/38781779/0bbdddd45be4fe817db83891fe96319f.jpg?size=200
+    email:              theuglyloaf@protonmail.com
+    website:            https://melekou.com
+    github_username:    weremoose
+    instagram_username: theuglyloaf
+    pinterest_username: weremoose

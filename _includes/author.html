@@ -20,10 +20,26 @@
         </li>
       {% endif %}
 
+      {% if author.instagram_username %}
+        <li class='c-social-nav__item'>
+          <a href='https://instagram.com/{{ author.instagram_username }}' target='_blank'>
+            <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.pinterest_username %}
+      <li class='c-social-nav__item'>
+        <a href='http://www.pinterest.com/{{ author.pinterest_username }}' target='_blank'>
+          <span class='c-social-nav__icon' data-icon="ei-sc-pinterest" data-size="s"></span>
+        </a>
+      </li>
+      {% endif %}
+
       {% if author.github_username %}
         <li class='c-author-links__item'>
           <a href='http://www.github.com/{{ author.github_username }}' target='_blank'>
-            <span class='c-author-links__icon' data-icon='ei-sc-facebook' data-size='s'></span>
+            <span class='c-author-links__icon' data-icon='ei-sc-github' data-size='s'></span>
           </a>
         </li>
       {% endif %}
@@ -45,5 +61,7 @@
       {% endif %}
     </ul>
   </div>
+
+
 
 </div>

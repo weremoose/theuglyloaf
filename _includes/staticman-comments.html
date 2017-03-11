@@ -1,0 +1,10 @@
+{% assign reviews = site.data.comments | sort %}
+
+	{% for comments in comments reversed %}
+		{% assign commentData = comment[1] %}
+
+		<article class="c-content">
+		  	<p><strong>Comment by: </strong>{{ commentData.name }}</p>
+        <p><strong>Comment: </strong>{{ commentData.message }}</p>
+		</article>
+  {% endfor %}
