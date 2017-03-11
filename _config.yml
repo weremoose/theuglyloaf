@@ -23,7 +23,7 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll/tagging
-  - jekyll_reading_time
+
 
 include:
   - _pages
