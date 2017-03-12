@@ -3,7 +3,6 @@ layout: post
 title: 50% Fresh Milled Whole Wheat Sourdough
 featured: true
 author: amelekou
-date: 2017-03-10
 tags: [collapsed, scoring, overproofing]
 image: '/images/posts/50-fresh-milled-whole-wheat-sourdough-top.jpg'
 ---
