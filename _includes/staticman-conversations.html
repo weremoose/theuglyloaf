@@ -1,6 +1,6 @@
 {% assign conversations = site.data.conversations | sort %}
 
-	{% for conversations in conversations reversed %}
+	{% for conversation in conversations reversed %}
 		{% assign conversationData = conversation[1] %}
 
 		<article class="c-content">
