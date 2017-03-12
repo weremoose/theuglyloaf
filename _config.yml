@@ -23,6 +23,7 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll/tagging
+  - jekyll_reading_time
 
 include:
   - _pages
@@ -54,3 +55,4 @@ authors:
     website:            https://melekou.com
     github_username:    weremoose
     instagram_username: theuglyloaf
+    pinterest_username: weremoose
