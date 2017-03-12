@@ -18,20 +18,13 @@ layout: default
 
         <h1 class='c-post__title u-text-center'>{{ page.title }}</h1>
 
-        <div class='c-tags u-text-center'>
-          {% for tag in page.tags %}
-            <a href='{{ site.baseurl }}/tag/{{ tag }}'>{{ tag }}</a>
-          {% endfor %}
-        </div>
-
-        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }} | {{ page.content | reading_time }} read</time>
+        <time class='c-post__date' datetime='{{ page.date | date_to_xmlschema }}' itemprop='datePublished'>{{ page.date | date: '%d %b %Y' }}</time>
 
         <div class='c-content' itemprop='articleBody'>
           {% include page-image.html %}
           {{ content }}
         </div>
 
-        
         <div class='o-grid'>
           <div class='o-grid__col o-grid__col--4-4-s o-grid__col--3-4-m'>
             <div class='c-tags'>
@@ -51,15 +44,10 @@ layout: default
           {% include author.html %}
         {% endif %}
 
-
         {% include subscribe-form.html %}
         <hr>
+
         {% include disqus.html %}
-
-
-        {% include staticman-form.html %}
-        <hr>
-        {% include staticman-comments.html %}
 
       </article>
 
