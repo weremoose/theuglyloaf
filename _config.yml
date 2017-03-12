@@ -9,8 +9,8 @@
 title:              The Ugly Loaf
 email:              theuglyloaf@protonmail.com
 description:        Minimal Blog & Magazine Jekyll Theme
-baseurl:            'blog' # The subpath of your site, e.g. /blog
-url:                'http://trainer-constance-22073.netlify.com/' # The base hostname & protocol for your site
+baseurl:            '' # The subpath of your site, e.g. /blog
+url:                'https://theuglyloaf.com' # The base hostname & protocol for your site
 instagram_username: theuglyloaf
 pinterest_username: weremoose
 
@@ -23,7 +23,6 @@ sass:
 gems:
   - jekyll-paginate
   - jekyll/tagging
-  - jekyll_reading_time
 
 include:
   - _pages
@@ -55,4 +54,3 @@ authors:
     website:            https://melekou.com
     github_username:    weremoose
     instagram_username: theuglyloaf
-    pinterest_username: weremoose
