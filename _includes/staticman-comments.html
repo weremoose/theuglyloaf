@@ -1,4 +1,4 @@
-{% assign reviews = site.data.comments | sort %}
+{% assign comments = site.data.comments | sort %}
 
 	{% for comments in comments reversed %}
 		{% assign commentData = comment[1] %}
