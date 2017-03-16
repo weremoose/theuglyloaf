@@ -56,3 +56,6 @@ authors:
     github_username:    weremoose
     instagram_username: theuglyloaf
     pinterest_username: weremoose
+
+# Staticman
+staticmanUrl: https://api.staticman.net/v2/entry/weremoose/theuglyloaf/master/comments
